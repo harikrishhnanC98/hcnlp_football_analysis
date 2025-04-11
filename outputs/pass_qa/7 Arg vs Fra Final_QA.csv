@@ -1,0 +1,8 @@
+question,answer
+Who had the highest betweenness centrality in the match against 7 Arg vs Fra Final?,Nicolás Hernán Otamendi had the highest betweenness centrality with a value of 0.185.
+Which player was most influential based on eigenvector centrality in the match against 7 Arg vs Fra Final?,Enzo Fernandez was the most influential player with an eigenvector centrality of 0.376.
+Who made the most passes for Argentina in the match against 7 Arg vs Fra Final?,"Enzo Fernandez made the most passes, totaling 88."
+Who received the most passes for Argentina in the match against 7 Arg vs Fra Final?,"Enzo Fernandez received the most passes, totaling 86."
+Which player was most involved in triangle passing patterns in the match against 7 Arg vs Fra Final?,Nahuel Molina Lucero had the highest clustering coefficient of 0.917.
+What was the density of Argentina's pass network in the match against 7 Arg vs Fra Final?,"The network density was 0.489, reflecting the overall connection of the team."
+What was the average clustering coefficient of Argentina's pass network in the match against 7 Arg vs Fra Final?,"The average clustering coefficient was 0.724, indicating the level of tight triangle formations."

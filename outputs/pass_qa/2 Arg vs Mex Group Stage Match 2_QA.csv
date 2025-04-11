@@ -1,0 +1,8 @@
+question,answer
+Who had the highest betweenness centrality in the match against 2 Arg vs Mex Group Stage Match 2?,Lionel Andrés Messi Cuccittini had the highest betweenness centrality with a value of 0.115.
+Which player was most influential based on eigenvector centrality in the match against 2 Arg vs Mex Group Stage Match 2?,Lionel Andrés Messi Cuccittini was the most influential player with an eigenvector centrality of 0.369.
+Who made the most passes for Argentina in the match against 2 Arg vs Mex Group Stage Match 2?,"Nicolás Hernán Otamendi made the most passes, totaling 82."
+Who received the most passes for Argentina in the match against 2 Arg vs Mex Group Stage Match 2?,"Nicolás Hernán Otamendi received the most passes, totaling 69."
+Which player was most involved in triangle passing patterns in the match against 2 Arg vs Mex Group Stage Match 2?,Exequiel Alejandro Palacios had the highest clustering coefficient of 1.0.
+What was the density of Argentina's pass network in the match against 2 Arg vs Mex Group Stage Match 2?,"The network density was 0.562, reflecting the overall connection of the team."
+What was the average clustering coefficient of Argentina's pass network in the match against 2 Arg vs Mex Group Stage Match 2?,"The average clustering coefficient was 0.846, indicating the level of tight triangle formations."

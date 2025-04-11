@@ -1,0 +1,8 @@
+question,answer
+Who had the highest betweenness centrality in the match against 1 Arg vs Saudi Group Stage Match 1?,Enzo Fernandez had the highest betweenness centrality with a value of 0.075.
+Which player was most influential based on eigenvector centrality in the match against 1 Arg vs Saudi Group Stage Match 1?,Nicolás Hernán Otamendi was the most influential player with an eigenvector centrality of 0.322.
+Who made the most passes for Argentina in the match against 1 Arg vs Saudi Group Stage Match 1?,"Nicolás Hernán Otamendi made the most passes, totaling 86."
+Who received the most passes for Argentina in the match against 1 Arg vs Saudi Group Stage Match 1?,"Nicolás Hernán Otamendi received the most passes, totaling 81."
+Which player was most involved in triangle passing patterns in the match against 1 Arg vs Saudi Group Stage Match 1?,Leandro Daniel Paredes had the highest clustering coefficient of 0.917.
+What was the density of Argentina's pass network in the match against 1 Arg vs Saudi Group Stage Match 1?,"The network density was 0.624, reflecting the overall connection of the team."
+What was the average clustering coefficient of Argentina's pass network in the match against 1 Arg vs Saudi Group Stage Match 1?,"The average clustering coefficient was 0.791, indicating the level of tight triangle formations."

@@ -1,0 +1,8 @@
+question,answer
+Who had the highest betweenness centrality in the match against 3 Arg vs Pol Group Stage Match 3?,Rodrigo Javier De Paul had the highest betweenness centrality with a value of 0.079.
+Which player was most influential based on eigenvector centrality in the match against 3 Arg vs Pol Group Stage Match 3?,Rodrigo Javier De Paul was the most influential player with an eigenvector centrality of 0.333.
+Who made the most passes for Argentina in the match against 3 Arg vs Pol Group Stage Match 3?,"Rodrigo Javier De Paul made the most passes, totaling 147."
+Who received the most passes for Argentina in the match against 3 Arg vs Pol Group Stage Match 3?,"Rodrigo Javier De Paul received the most passes, totaling 140."
+Which player was most involved in triangle passing patterns in the match against 3 Arg vs Pol Group Stage Match 3?,Germán Alejandro Pezzella had the highest clustering coefficient of 0.952.
+What was the density of Argentina's pass network in the match against 3 Arg vs Pol Group Stage Match 3?,"The network density was 0.642, reflecting the overall connection of the team."
+What was the average clustering coefficient of Argentina's pass network in the match against 3 Arg vs Pol Group Stage Match 3?,"The average clustering coefficient was 0.83, indicating the level of tight triangle formations."

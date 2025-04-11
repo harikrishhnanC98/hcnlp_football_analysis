@@ -1,0 +1,8 @@
+question,answer
+Who had the highest betweenness centrality in the match against 4 Arg vs Aus Round of 16?,Rodrigo Javier De Paul had the highest betweenness centrality with a value of 0.11.
+Which player was most influential based on eigenvector centrality in the match against 4 Arg vs Aus Round of 16?,Enzo Fernandez was the most influential player with an eigenvector centrality of 0.332.
+Who made the most passes for Argentina in the match against 4 Arg vs Aus Round of 16?,"Enzo Fernandez made the most passes, totaling 99."
+Who received the most passes for Argentina in the match against 4 Arg vs Aus Round of 16?,"Enzo Fernandez received the most passes, totaling 88."
+Which player was most involved in triangle passing patterns in the match against 4 Arg vs Aus Round of 16?,Gonzalo Ariel Montiel had the highest clustering coefficient of 1.0.
+What was the density of Argentina's pass network in the match against 4 Arg vs Aus Round of 16?,"The network density was 0.596, reflecting the overall connection of the team."
+What was the average clustering coefficient of Argentina's pass network in the match against 4 Arg vs Aus Round of 16?,"The average clustering coefficient was 0.82, indicating the level of tight triangle formations."
