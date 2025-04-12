@@ -1,0 +1,30 @@
+[
+  {
+    "question": "Who had the highest betweenness centrality in the match against 6 Arg vs Cro SF?",
+    "answer": "Lionel Andrés Messi Cuccittini had the highest betweenness centrality with a value of 0.087."
+  },
+  {
+    "question": "Which player was most influential based on eigenvector centrality in the match against 6 Arg vs Cro SF?",
+    "answer": "Alexis Mac Allister was the most influential player with an eigenvector centrality of 0.344."
+  },
+  {
+    "question": "Who made the most passes for Argentina in the match against 6 Arg vs Cro SF?",
+    "answer": "Enzo Fernandez made the most passes, totaling 47."
+  },
+  {
+    "question": "Who received the most passes for Argentina in the match against 6 Arg vs Cro SF?",
+    "answer": "Lionel Andrés Messi Cuccittini received the most passes, totaling 62."
+  },
+  {
+    "question": "Which player was most involved in triangle passing patterns in the match against 6 Arg vs Cro SF?",
+    "answer": "Juan Marcos Foyth had the highest clustering coefficient of 1.0."
+  },
+  {
+    "question": "What was the density of Argentina's pass network in the match against 6 Arg vs Cro SF?",
+    "answer": "The network density was 0.521, reflecting the overall connection of the team."
+  },
+  {
+    "question": "What was the average clustering coefficient of Argentina's pass network in the match against 6 Arg vs Cro SF?",
+    "answer": "The average clustering coefficient was 0.708, indicating the level of tight triangle formations."
+  }
+]

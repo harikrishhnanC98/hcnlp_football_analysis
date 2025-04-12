@@ -1,0 +1,30 @@
+[
+  {
+    "question": "Who had the highest betweenness centrality in the match against 5 Arg vs Ned QF?",
+    "answer": "Enzo Fernandez had the highest betweenness centrality with a value of 0.102."
+  },
+  {
+    "question": "Which player was most influential based on eigenvector centrality in the match against 5 Arg vs Ned QF?",
+    "answer": "Enzo Fernandez was the most influential player with an eigenvector centrality of 0.356."
+  },
+  {
+    "question": "Who made the most passes for Argentina in the match against 5 Arg vs Ned QF?",
+    "answer": "Nicolás Hernán Otamendi made the most passes, totaling 87."
+  },
+  {
+    "question": "Who received the most passes for Argentina in the match against 5 Arg vs Ned QF?",
+    "answer": "Enzo Fernandez received the most passes, totaling 70."
+  },
+  {
+    "question": "Which player was most involved in triangle passing patterns in the match against 5 Arg vs Ned QF?",
+    "answer": "Ángel Fabián Di María Hernández had the highest clustering coefficient of 0.952."
+  },
+  {
+    "question": "What was the density of Argentina's pass network in the match against 5 Arg vs Ned QF?",
+    "answer": "The network density was 0.574, reflecting the overall connection of the team."
+  },
+  {
+    "question": "What was the average clustering coefficient of Argentina's pass network in the match against 5 Arg vs Ned QF?",
+    "answer": "The average clustering coefficient was 0.798, indicating the level of tight triangle formations."
+  }
+]
