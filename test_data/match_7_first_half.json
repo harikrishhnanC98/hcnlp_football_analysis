@@ -1,0 +1,55 @@
+{
+  "pass_network": {
+    "Alexis Mac Allister": {
+      "passes_made": 23,
+      "passes_received": 27
+    },
+    "Enzo Fernandez": {
+      "passes_made": 40,
+      "passes_received": 37
+    },
+    "Juli\u00e1n \u00c1lvarez": {
+      "passes_made": 13,
+      "passes_received": 20
+    },
+    "Lionel Andr\u00e9s Messi Cuccittini": {
+      "passes_made": 22,
+      "passes_received": 33
+    },
+    "Nicol\u00e1s Alejandro Tagliafico": {
+      "passes_made": 28,
+      "passes_received": 20
+    },
+    "Nicol\u00e1s Hern\u00e1n Otamendi": {
+      "passes_made": 41,
+      "passes_received": 37
+    },
+    "\u00c1ngel Fabi\u00e1n Di Mar\u00eda Hern\u00e1ndez": {
+      "passes_made": 23,
+      "passes_received": 31
+    },
+    "Cristian Gabriel Romero": {
+      "passes_made": 39,
+      "passes_received": 30
+    },
+    "Dami\u00e1n Emiliano Mart\u00ednez": {
+      "passes_made": 9,
+      "passes_received": 8
+    },
+    "Nahuel Molina Lucero": {
+      "passes_made": 26,
+      "passes_received": 19
+    },
+    "Rodrigo Javier De Paul": {
+      "passes_made": 33,
+      "passes_received": 35
+    }
+  },
+  "graph_metrics": {
+    "match": "7_Arg_vs_Fra_Final_first_half",
+    "num_nodes": 11,
+    "num_edges": 77,
+    "density": 0.7,
+    "avg_clustering": 0.8402597402597404
+  }
+}
