@@ -1,5 +1,5 @@
 ---
-base_model: unsloth/tinyllama-chat-bnb-4bit
+base_model: unsloth/llama-3.2-1b-instruct-unsloth-bnb-4bit
 library_name: peft
 ---
 
