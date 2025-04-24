@@ -40,17 +40,4 @@
 {"instruction": "Which player was most involved in triangle passing patterns in the match against 6 Arg vs Cro SF?", "response": "Juan Marcos Foyth had the highest clustering coefficient of 1.0."}
 {"instruction": "What was the density of Argentina's pass network in the match against 6 Arg vs Cro SF?", "response": "The network density was 0.521, reflecting the overall connection of the team."}
 {"instruction": "What was the average clustering coefficient of Argentina's pass network in the match against 6 Arg vs Cro SF?", "response": "The average clustering coefficient was 0.708, indicating the level of tight triangle formations."}
-{"instruction": "Who had the highest betweenness centrality in the match against 7 Arg vs Fra Final?", "response": "Nicolás Hernán Otamendi had the highest betweenness centrality with a value of 0.185."}
-{"instruction": "Which player was most influential based on eigenvector centrality in the match against 7 Arg vs Fra Final?", "response": "Enzo Fernandez was the most influential player with an eigenvector centrality of 0.376."}
-{"instruction": "Who made the most passes for Argentina in the match against 7 Arg vs Fra Final?", "response": "Enzo Fernandez made the most passes, totaling 88."}
-{"instruction": "Who received the most passes for Argentina in the match against 7 Arg vs Fra Final?", "response": "Enzo Fernandez received the most passes, totaling 86."}
-{"instruction": "Which player was most involved in triangle passing patterns in the match against 7 Arg vs Fra Final?", "response": "Nahuel Molina Lucero had the highest clustering coefficient of 0.917."}
-{"instruction": "What was the density of Argentina's pass network in the match against 7 Arg vs Fra Final?", "response": "The network density was 0.489, reflecting the overall connection of the team."}
-{"instruction": "What was the average clustering coefficient of Argentina's pass network in the match against 7 Arg vs Fra Final?", "response": "The average clustering coefficient was 0.724, indicating the level of tight triangle formations."}
-{"instruction": "Who had the highest betweenness centrality in the match against arg sau passes?", "response": "Enzo Fernandez had the highest betweenness centrality with a value of 0.075."}
-{"instruction": "Which player was most influential based on eigenvector centrality in the match against arg sau passes?", "response": "Nicolás Hernán Otamendi was the most influential player with an eigenvector centrality of 0.322."}
-{"instruction": "Who made the most passes for Argentina in the match against arg sau passes?", "response": "Nicolás Hernán Otamendi made the most passes, totaling 86."}
-{"instruction": "Who received the most passes for Argentina in the match against arg sau passes?", "response": "Nicolás Hernán Otamendi received the most passes, totaling 81."}
-{"instruction": "Which player was most involved in triangle passing patterns in the match against arg sau passes?", "response": "Leandro Daniel Paredes had the highest clustering coefficient of 0.917."}
-{"instruction": "What was the density of Argentina's pass network in the match against arg sau passes?", "response": "The network density was 0.624, reflecting the overall connection of the team."}
-{"instruction": "What was the average clustering coefficient of Argentina's pass network in the match against arg sau passes?", "response": "The average clustering coefficient was 0.791, indicating the level of tight triangle formations."}
+
