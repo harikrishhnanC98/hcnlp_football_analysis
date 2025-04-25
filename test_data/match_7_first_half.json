@@ -80,16 +80,6 @@
       "pagerank": 0.09204924438753818,
       "clustering": 0.8214285714285714
     },
-    "Dami\u00e1n Emiliano Mart\u00ednez": {
-      "passes_made": 9,
-      "passes_received": 8,
-      "degree_centrality": 0.7000000000000001,
-      "betweenness_centrality": 0.001587301587301587,
-      "closeness_centrality": 0.5555555555555556,
-      "eigenvector_centrality": 0.1224442487280996,
-      "pagerank": 0.03104228461740153,
-      "clustering": 0.8333333333333334
-    },
     "Nahuel Molina Lucero": {
       "passes_made": 26,
       "passes_received": 19,
@@ -117,8 +107,8 @@
     "num_edges": 77,
     "density": 0.7,
     "avg_clustering": 0.8402597402597404,
-    "betweenness_centrality": "{'Alexis Mac Allister': 0.0176984126984127, 'Enzo Fernandez': 0.056878306878306875, 'Juli\u00e1n \u00c1lvarez': 0.026402116402116402, 'Lionel Andr\u00e9s Messi Cuccittini': 0.034550264550264546, 'Nicol\u00e1s Alejandro Tagliafico': 0.0056613756613756614, 'Nicol\u00e1s Hern\u00e1n Otamendi': 0.09806878306878307, '\u00c1ngel Fabi\u00e1n Di Mar\u00eda Hern\u00e1ndez': 0.03732804232804233, 'Cristian Gabriel Romero': 0.031878306878306874, 'Dami\u00e1n Emiliano Mart\u00ednez': 0.0015873015873015873, 'Nahuel Molina Lucero': 0.04492063492063492, 'Rodrigo Javier De Paul': 0.022804232804232803}",
-    "eigenvector_centrality": "{'Alexis Mac Allister': 0.3037203355376681, 'Enzo Fernandez': 0.37617454319188803, 'Juli\u00e1n \u00c1lvarez': 0.3486678418861601, 'Lionel Andr\u00e9s Messi Cuccittini': 0.33377957866530084, 'Nicol\u00e1s Alejandro Tagliafico': 0.18958760937005062, 'Nicol\u00e1s Hern\u00e1n Otamendi': 0.3486678418861601, '\u00c1ngel Fabi\u00e1n Di Mar\u00eda Hern\u00e1ndez': 0.3410727653388676, 'Cristian Gabriel Romero': 0.24721469416925387, 'Dami\u00e1n Emiliano Mart\u00ednez': 0.12244424872809963, 'Nahuel Molina Lucero': 0.28868609330201217, 'Rodrigo Javier De Paul': 0.31619279460774}",
-    "pagerank": "{'Alexis Mac Allister': 0.09989339077856042, 'Enzo Fernandez': 0.11841447732049706, 'Juli\u00e1n \u00c1lvarez': 0.07424872750291446, 'Lionel Andr\u00e9s Messi Cuccittini': 0.11310828017046586, 'Nicol\u00e1s Alejandro Tagliafico': 0.07157541557280252, 'Nicol\u00e1s Hern\u00e1n Otamendi': 0.1109055591991943, '\u00c1ngel Fabi\u00e1n Di Mar\u00eda Hern\u00e1ndez': 0.10894727949348758, 'Cristian Gabriel Romero': 0.09204924438753818, 'Dami\u00e1n Emiliano Mart\u00ednez': 0.03104228461740153, 'Nahuel Molina Lucero': 0.06699085886392572, 'Rodrigo Javier De Paul': 0.11282448209321243}"
+    "betweenness_centrality": "{'Alexis Mac Allister': 0.0176984126984127, 'Enzo Fernandez': 0.056878306878306875, 'Juli\u00e1n \u00c1lvarez': 0.026402116402116402, 'Lionel Andr\u00e9s Messi Cuccittini': 0.034550264550264546, 'Nicol\u00e1s Alejandro Tagliafico': 0.0056613756613756614, 'Nicol\u00e1s Hern\u00e1n Otamendi': 0.09806878306878307, '\u00c1ngel Fabi\u00e1n Di Mar\u00eda Hern\u00e1ndez': 0.03732804232804233, 'Cristian Gabriel Romero': 0.031878306878306874, 'Nahuel Molina Lucero': 0.04492063492063492, 'Rodrigo Javier De Paul': 0.022804232804232803}",
+    "eigenvector_centrality": "{'Alexis Mac Allister': 0.3037203355376681, 'Enzo Fernandez': 0.37617454319188803, 'Juli\u00e1n \u00c1lvarez': 0.3486678418861601, 'Lionel Andr\u00e9s Messi Cuccittini': 0.33377957866530084, 'Nicol\u00e1s Alejandro Tagliafico': 0.18958760937005062, 'Nicol\u00e1s Hern\u00e1n Otamendi': 0.3486678418861601, '\u00c1ngel Fabi\u00e1n Di Mar\u00eda Hern\u00e1ndez': 0.3410727653388676, 'Cristian Gabriel Romero': 0.24721469416925387, 'Nahuel Molina Lucero': 0.28868609330201217, 'Rodrigo Javier De Paul': 0.31619279460774}",
+    "pagerank": "{'Alexis Mac Allister': 0.09989339077856042, 'Enzo Fernandez': 0.11841447732049706, 'Juli\u00e1n \u00c1lvarez': 0.07424872750291446, 'Lionel Andr\u00e9s Messi Cuccittini': 0.11310828017046586, 'Nicol\u00e1s Alejandro Tagliafico': 0.07157541557280252, 'Nicol\u00e1s Hern\u00e1n Otamendi': 0.1109055591991943, '\u00c1ngel Fabi\u00e1n Di Mar\u00eda Hern\u00e1ndez': 0.10894727949348758, 'Cristian Gabriel Romero': 0.09204924438753818, 'Nahuel Molina Lucero': 0.06699085886392572, 'Rodrigo Javier De Paul': 0.11282448209321243}"
   }
 }
