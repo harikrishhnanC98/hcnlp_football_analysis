@@ -129,7 +129,7 @@ class UnslothAlignPropConfig(AlignPropConfig):
     )
     def __init__(
         self,
-        exp_name = 'dashboard',
+        exp_name = 'dashboard1',
         run_name = '',
         seed = 3407,
         log_with = None,

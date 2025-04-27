@@ -205,7 +205,9 @@ Corners: Argentina earned 6 corners; France had 5.
 Fouls Committed: Argentina committed 26 fouls; France committed 19.
 Yellow Cards: Argentina received 5 yellow cards; France received 3.
 
-Predict the expected scoreline for the second half in the format: Arg (score) - Fra (score).
+**The answer should be in this format '(score) - (score)' and should not include any other text**
+
+Predict the expected scoreline for the second half based on their first half pass network summary and graph metrics.
 
 ###Response
 """.strip()
@@ -230,8 +232,9 @@ Corners: Argentina earned 6 corners; France had 5.
 Fouls Committed: Argentina committed 26 fouls; France committed 19.
 Yellow Cards: Argentina received 5 yellow cards; France received 3.
 
-Predict the expected possession for Argentina in the second half in the format: Arg (possession value expected).
+**Only the expected possesion metric for Argentina in the second half. Do not include anything else. I just need the Possession number **
 
+Predict the expected possession for Argentina based on their first half pass network summary in one word.
 ###Response
 """.strip()
 
@@ -255,7 +258,9 @@ Corners: Argentina earned 6 corners; France had 5.
 Fouls Committed: Argentina committed 26 fouls; France committed 19.
 Yellow Cards: Argentina received 5 yellow cards; France received 3.
 
-Predict the expected top player of Argentina in the second half.
+**The answer should only have the expected Top player name and should not include any other text. Only the player name**
+
+Predict the expected top player of Argentina who has the best pass metrics in the second half based on pass network summary.
 
 ###Response
 """.strip()
@@ -280,7 +285,52 @@ Corners: Argentina earned 6 corners; France had 5.
 Fouls Committed: Argentina committed 26 fouls; France committed 19.
 Yellow Cards: Argentina received 5 yellow cards; France received 3.
 
-Predict the expected top substitution of Argentina in the second half.
+**Below given are the players who are Argentina's starting 11:**
+
+Lionel Messi	FW - Starting 11
+Julián Álvarez	FW - Starting 11
+Enzo Fernández	CM - Starting 11
+Rodrigo De Paul	CM - Starting 11
+Ángel Di María	FW - Starting 11
+Nicolás Tagliafico	LB - Starting 11
+Nicolás Otamendi	CB - Starting 11
+Cristian Romero 	CB - Starting 11
+Nahuel Molina	RB - Starting 11
+
+These are the players who are on Argentina's bench
+
+Lautaro Martínez
+   - Passes made: 12.8, Passes received: 10.2
+   - Degree: 0.59, Betweenness: 0.31, Closeness: 0.56
+   - PageRank: 0.47, Eigenvector: 0.50, Clustering: 0.23
+Lisandro Martínez (CB)
+   - Passes made: 15.4, Passes received: 13.7
+   - Degree: 0.64, Betweenness: 0.27, Closeness: 0.60
+   - PageRank: 0.45, Eigenvector: 0.52, Clustering: 0.28
+Leandro Paredes (CM)
+   - Passes made: 28.5, Passes received: 24.1
+   - Degree: 0.78, Betweenness: 0.48, Closeness: 0.75
+   - PageRank: 0.66, Eigenvector: 0.68, Clustering: 0.34
+Marcos Acuña (LB)
+   - Passes made: 23.7, Passes received: 21.2
+   - Degree: 0.71, Betweenness: 0.38, Closeness: 0.67
+   - PageRank: 0.58, Eigenvector: 0.60, Clustering: 0.30
+Gonzalo Montiel(RB)
+   - Degree Centrality: 0.823, Betweenness Centrality: 0.00875, Closeness Centrality: 0.632
+   - Eigenvector Centrality: 0.1766, PageRank: 0.03925, Clustering: 0.9222
+   - Passes Made: 22.33, Passes Received: 21.67
+Germán Pezzella(CB)
+    - Degree Centrality: 0.9646, Betweenness Centrality: 0.01539, Closeness Centrality: 0.6739
+    - Eigenvector Centrality: 0.1979, PageRank: 0.0333, Clustering: 0.8984
+    - Passes Made: 24.0, Passes Received: 20.5
+
+**The answer should only be a one-word answer for the expected Substitution player name from the bench players and should not include any other text. Only the substitution player name**
+**Luis Suárez is not a part of Argentina team**
+**You cannot use players from the starting 11**
+**You cannot use Nicolás Otamendi**
+**Do not include ': **' in the player names**
+**Only use player names like this : 'Lautaro Martínez', 'Lisandro Martínez', 'Leandro Paredes', 'Marcos Acuña', 'Gonzalo Montiel' and 'Germán Pezzella'**
+Predict the expected best player to bring on as a substitute in the second half from the list of bench players based on pass network summary.
 
 ###Response
 """.strip()
@@ -364,19 +414,25 @@ col1, col2, col3, col4 = st.columns(4)
 
 with col1:
     st.markdown("#### 🎯 Expected Scoreline")
-    st.success(call_model(expected_scoreline_prompt))
+    scoreline_response = call_model(expected_scoreline_prompt)
+    st.metric(label="Expected Scoreline", value=scoreline_response)
 
 with col2:
     st.markdown("#### ⚽ Expected Possession")
-    st.info(call_model(expected_possession_prompt))
+    possession_response = call_model(expected_possession_prompt)
+    st.metric(label="Expected Possession", value=possession_response.replace("1.", "").replace("**", ""))
 
 with col3:
     st.markdown("#### 🏅 Top Player")
-    st.warning(call_model(expected_top_player_prompt))
+    top_player_response = call_model(expected_top_player_prompt)
+    st.metric(label="Expected Top Player", value=top_player_response)
 
 with col4:
     st.markdown("#### 🔄 Top Substitution")
-    st.error(call_model(expected_top_substitution_prompt))
+    top_substitution_response = call_model(expected_top_substitution_prompt)
+    st.metric(label="Expected Top Substitution", value=top_substitution_response.replace("**", "").replace(":", ""))
+
+
 
 st.markdown("### 📊 AI-Based Predictions")
 col5, col6, col7 = st.columns(3)
