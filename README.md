@@ -2,7 +2,7 @@
 
 # ⚽ Predictive Football Intelligence Using Pass Networks & LLMs
 
-This project builds a fine-tuned language model that learns from structured passing networks and player statistics to predict key players and tactical insights in football matches. The 2022 FIFA World Cup data (focused on Argentina) is used to train the model using graph-based metrics derived from StatsBomb. Please refer to the finetuning_llm_stable.ipynb, nonfinetuned_results.ipynb, and streamlit_app.ipynb notebooks for reference on the fine-tuning process, non-fine-tuned model results, and Streamlit dashboard implementation, respectively.
+This project builds a fine-tuned language model that learns from structured passing networks and player statistics to predict key players and tactical insights in football matches. The 2022 FIFA World Cup data (focused on Argentina) is used to train the model using graph-based metrics derived from StatsBomb. Please refer to the finetuning_llm_stable.ipynb, nonfinetuned_results.ipynb, and streamlit_app.ipynb notebooks in the root directory for details on the fine-tuning process, non-fine-tuned model results, and Streamlit dashboard implementation, respectively.
 
 ## 🧠 Core Idea
 
